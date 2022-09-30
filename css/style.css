@@ -175,16 +175,39 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/background1.png) no-repeat top center;
+	background: url(../img/background1920.jpg) no-repeat top center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	min-height:1000px;
 }
-.intro .overlay {
+
+/* @media (min-width: 993px) {
+	.intro {
+		background: url(../img/background1920.jpg) no-repeat top center;
+		min-height:1000px;
+	}
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+	.intro {
+		background: url(../img/background992.jpg) no-repeat top center;
+		min-height:708px;
+	}
+}
+
+@media (max-width: 576px) {
+	.intro {
+		background: url(../img/background576.jpg) no-repeat top center;
+		min-height:411px;
+	}
+} */
+
+/* .intro .overlay {
 	background: rgba(0,0,0,0.4);
-}
+} */
 .intro h1 {
 	font-family: 'Dancing Script', cursive;
 	color: #fff;
